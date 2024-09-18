@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: vault-database-engine-location
+  description: Location to import all vault-database-engine catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
